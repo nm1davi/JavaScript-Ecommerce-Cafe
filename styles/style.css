@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Anton&family=Dancing+Script&family=Didact+Gothic&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Playfair+Display:ital,wght@1,600&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Playfair+Display:ital,wght@1,600&family=Titillium+Web&family=Ysabeau+Infant:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Handlee&family=Josefin+Sans:wght@500;700&family=Playfair+Display:ital,wght@1,600&family=Titillium+Web&family=Ysabeau+Infant:wght@600&display=swap');
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+header{
+    position: relative;
+    background-color: rgb(41, 24, 14);
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.contenedorHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    list-style: none !important;
+    padding: 1rem;
+}
+
+.contenedorHeader a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+.imgDebajoHeader img{
+    width: 100%;
+    height: 50rem;
+    object-fit:cover;
+}  
+
+.contenedorH1{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+}
+
+.contenedorH1 h1{
+    color: white;
+    font-family: 'Alex Brush', cursive;
+    font-size: 5rem;
+}
+.contenedorH1 h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+}
+
+
+.conenedorMain{
+    height: 12rem;
+    background-color: rgb(112, 84, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorMain1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.conenedorMain h1{
+    color: white;
+    font-family: 'Alex Brush', cursive;
+    font-size: 4rem;
+}
+.conenedorMain h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+main{
+  margin: 1rem;
+}
+.contenedorMain{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.contenedorMain1 img{
+    width: 40%;
+}
+
+.contendorImg{
+    position: relative;
+    width: 50%;
+    margin: 0.50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid 0.25rem rgb(0, 0, 0);
+    border-radius: 1rem;
+    flex-basis: calc(50% - 1rem); /* Ajusta el tamaño base a la mitad del contenedor */
+    margin: 0.5rem;
+}
+
+.contendorImg h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+.contendorImg h2{
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Se posiciona en la parte superior */
+    left: 0; /* Se posiciona en el lado izquierdo */
+    margin: 5px; /* Elimina el margen predeterminado */
+    padding: 0.5rem; /* Agrega un espacio interno alrededor del número */
+    font-family: 'Dancing Script', cursive;
+    color:rgb(70, 51, 24);
+    font-size: 2.5rem; /* Ajusta el tamaño del número según tu preferencia */;
+
+  }
+
+.contendorImg p{
+    height: 100%;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+
+.boton{
+    border-radius: 0.50rem;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-left: 50rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    transition: background-color .4s;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: rgb(112, 84, 42);
+    color: aliceblue;
+}
+
+footer{
+  padding: 1rem;
+}
+.contenedorFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(112, 84, 42);
+}
+
+.contenedorFooter h2{
+  margin-left: 1rem;
+}
+
+  .iconosFooter{
+    display: flex;
+    flex-direction: row;
+  }
+  .contenedorFooter ul {
+    list-style: none;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+
+  .contenedorH2{
+    justify-content: end;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+  }
+
+.numerito{
+    margin-left: 0.5rem;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(70, 51, 24);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.numeritoHeader{
+    margin-left: 0.5rem;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Estilo de Contactos */
+.containerFormulario {  
+    display: grid;
+    background-image: url(../assets/img/fondoFormulario.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 2px;
+    grid-auto-flow: row;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    grid-template-areas:
+      "contenedorFormulario contenedorMapa";
+  }
+
+  .containerFormulario::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con transparencia */
+    border-radius: 15px;
+    z-index: 0; /* Asegura que la capa negra esté detrás del contenido */
+  }
+  .contenedorMapa { 
+    
+    grid-area: contenedorMapa; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .contenedorMapa iframe {
+    width: 90%;
+    height: 90%;
+  }
+  .contenedorFormulario { 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #672E30;
+    grid-area: contenedorFormulario;
+
+}
+  .contenedorSombra{
+    margin: 1rem;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    width: 90%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFE8D1;
+    font-family: 'Amaranth', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Titillium Web', sans-serif;
+font-size: 1.5rem;
+font-weight: bold;
+position: relative;
+z-index: 1;
+  }
+
+  .iconoFormulario{
+    border-top-left-radius: 15px;
+    width: 100%;
+    background-color: rgb(95, 51, 22);
+    text-align: center;
+  }
+  .iconoFormulario span{
+    color: white ;
+    font-size: 10rem;
+  }
+
+  .contacto{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+  }
+  .contacto input, .contacto textarea{
+    border: none;
+    border-bottom: 6px double #956242;
+    background-color: #FFE8D1;
+
+  }
+
+  .contacto label{
+    background-color: #FFE8D1;
+  }
+
+  .etiquetaFormulario{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px;
+  }
+
+  .botonFormulario{
+    font-family: 'Amaranth', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: thick double #956242;
+    border-radius: 15px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    width: 30%;
+    transition: all 0.3s ease-out ;
+    color:#672E30;
+  }
+  .botonFormulario:hover{
+    background-color: rgb(95, 51, 22);
+    color: white;
+  }
+  
+  .graciasFormulario{
+    display: flex;
+    height: 55vh;
+    flex-direction: row;
+    align-items: center;
+  }
+  .graciasFormulario h1{
+    font-size: 2rem;
+    color:#533624;
+    font-weight: bold;
+  }
+  
+
+/* Estilos Nosotros */
+.contenedorNosotros {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.6fr 0.5fr 0.5fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  align-items: stretch;
+  grid-template-areas:
+    "imagenNosotros"
+    "textoNosotros"
+    "carruselNosotros";
+  width: 100%;
+}
+
+.imagenNosotros img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.textoNosotros { 
+  grid-area: textoNosotros;
+  background-image: linear-gradient(to bottom, #808080, #9d9d9d, #bcbcbc, #dbdbdb, #fbfbfb);
+  margin-top: 0.3rem;
+}
+.ordenNosotros{
+  display: flex;
+  flex-direction: row;
+  color: rgb(0, 0, 0);
+}
+
+.textoNosotros {  display: grid;
+  grid-template-columns: 0.4fr 1.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "quienesSomos textoQuienesSomos";
+  grid-area: textoNosotros;
+}
+
+.contenedorQuienesSomos { 
+  grid-area: quienesSomos;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+}
+.quienesSomos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quienesSomos i{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.quienesSomos h1{
+  margin: 0px;
+  font-family: 'Amaranth', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.textoQuienesSomos { 
+  grid-area: textoQuienesSomos;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textoQuienesSomos p{
+  margin: 0px;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+
+.carruselNosotros { 
+  grid-area: carruselNosotros; 
+  margin-top: 0.3rem;
+  display: flex;
+}
+
+.carousel{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  /* background-color: #FFEDCB; */
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before{
+  content: "";
+  display: inline-block;
+  width: 10px; /* Ajusta el tamaño de las flechas según tus necesidades */
+  height: 10px; /* Ajusta el tamaño de las flechas según tus necesidades */
+  border-radius: 50%; /* Da forma circular a las flechas */
+}
+
+
+
+.card {
+  width: 800px; 
+  margin: 0 auto; 
+  color: black; 
+  background-color: #DFE0DF;
+}
+
+.card h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  border-bottom: black;
+  border-bottom-style: double;
+}
+
+.card p{
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-body img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.col-md-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.disable{
+    display: none;
+}
+
+
+/* Estilos de Envio */
+#map {
+  height:100vh;
+  width: 100%;
+  position: relative;
+}
+
+.formBlock {
+  max-width: 300px;
+  background-color: #FFF;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  z-index: 999;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.leaflet-top .leaflet-control {
+  margin-top: 180px;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+#form {
+  padding: 0;
+  margin: 0;
+}
+input:nth-child(1) {
+  margin-bottom: 10px;
+}

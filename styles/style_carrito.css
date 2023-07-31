@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Anton&family=Dancing+Script&family=Didact+Gothic&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Titillium+Web&display=swap');
+
+body {
+      margin: 1.2rem;
+}
+
+
+table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: rgba(128, 128, 128, 0.233);
+  }
+
+th {
+      font-size: 1.5rem;
+}
+
+  th, td {
+      text-align: center;
+      align-items: center;
+      padding: 8px;
+      font-size: 1.5rem;
+  }
+
+td img{
+      width: 20%;
+}
+
+
+.container1 {  display: grid;
+      grid-template-columns: 0.3fr 1.3fr;
+      grid-template-rows: 1fr;
+      grid-auto-columns: 1fr;
+      grid-auto-rows: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      align-items: stretch;
+      grid-template-areas:
+        "aside main";
+      width: 100%;
+    font-family: 'Didact Gothic', sans-serif;
+
+
+    }
+    
+    .aside {  display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1.5fr 0.5fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "asideHeader asideHeader asideHeader"
+        ". . ."
+        "asideFooter asideFooter asideFooter";
+      grid-area: aside;
+      background-color: rgb(112, 84, 42);
+    }
+    
+    .asideHeader { 
+      width: 100%;
+      text-align: center;
+      grid-area: asideHeader; }
+    
+    .asideFooter { 
+      grid-area: asideFooter;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-left: 1rem;
+      gap: 1rem;
+      font-size: 1.3rem;
+}
+
+      .asideFooter a{
+            text-decoration: none; 
+            color:white;
+      }
+
+      .asideFooter i{
+            margin-right: 1rem;
+      }
+
+    
+    .main {  display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "mainProductos mainProductos mainProductos"
+        "mainProductos mainProductos mainProductos"
+        "mainProductos mainProductos mainProductos";
+      grid-area: main;
+    }
+    
+    .mainProductos { 
+      grid-area: mainProductos;
+    }
+
+    .carritoVacio{
+      grid-area: mainProductos;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .carritoVacio h1 {
+      text-align: center;
+    }
+    .carritoVacio i{
+      margin-left: 1rem;
+    }
+
+    .graciasCompra{      
+      grid-area: mainProductos;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+    
+    footer{
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      height: 100%;
+      background-color: rgb(112, 84, 42);
+    }
+    
+    button{
+      border: transparent;
+      background-color: rgba(255, 255, 255, 0);
+    }
+
+.compra{
+      margin-left: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1rem;
+      text-align: center;
+}
+
+.btncustom{
+      font-family: 'Didact Gothic', sans-serif;
+}
+.compraDerecha{
+      font-family: 'Didact Gothic', sans-serif;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-end;
+      gap: 1rem;
+}
+.compraDerecha p{
+      font-family: 'Didact Gothic', sans-serif;
+      margin-bottom:  0.2rem;
+      font-weight: 600;
+      font-size: 1.3rem;
+    
+}
+
+.contenedoFooter{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.footerIzquierda{
+      color: rgb(73, 60, 60);
+      font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.footerDerecha i{
+      color: white;
+      margin: 1rem;
+}
+
+
+
+.disable{
+      display: none;
+}
