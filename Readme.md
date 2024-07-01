@@ -24,3 +24,7 @@ Esta página es una tienda en línea para la venta de café. Permite a los usuar
 6. **Página de Contacto**:
     - **Formulario de Contacto**: Incluye un formulario que permite a los usuarios enviar consultas o mensajes a la empresa. El formulario recoge los datos del usuario y simula el envío al hacer clic en el botón de enviar.
 7. **Página de Nosotros**: Proporciona información sobre la empresa y su misión.
+
+### Despliegue
+
+8. **Deploy en Netlify**: La página está desplegada en Netlify y puede ser visitada en [https://javascript-ecommerce-cooffe.netlify.app](https://javascript-ecommerce-cooffe.netlify.app).
